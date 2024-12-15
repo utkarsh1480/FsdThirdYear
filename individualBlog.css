@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    
+    color: white;
+    text-align: center;
+    background-image: url(blog-3.jpg);
+    padding: 100px 20px;
+    height: 15vw;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.header-title {
+    
+    font-size: 3em;
+    margin: 0;
+    /* margin: 10vw 0px; */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.header-subtitle {
+    font-size: 1.5em;
+    /* margin: 13vw 0; */
+    animation: fadeIn 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#drop{
+  
+   height: 3.5vw;
+   width: 50%;
+   border-radius: 10px;
+   margin: 3vw 25vw;
+   font-weight: 900;
+   font-size: 1.4rem;
+}
