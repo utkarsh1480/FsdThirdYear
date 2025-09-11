@@ -65,8 +65,8 @@ scrollbar-width: none;
 
 .slide{
   width: 100%;
-  height: 100vh;
-  background : #222;
+  height: 120vh;
+  /* background : #222; */
   /* display: flex; */
   align-items: center;
   justify-content: center;
